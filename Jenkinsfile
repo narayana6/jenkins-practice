@@ -30,7 +30,7 @@ pipeline {
                sh 'echo This is Deploy'
             }
         }
-        tage('*print params') {
+        tage('print params') {
             steps {
                 echo "Hello ${params.PERSON}"
                 echo "Biography: ${params.BIOGRAPHY}"
